@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - ENEM</title>
+    <script defer src="script2.js"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <h3>Portal do Candidato - ENEM</h3>
+    </header>
+
+    <div class="box">
+
+        <h1 class="title-box">Inscrição</h1>
+
+        <label for="nome">
+            Nome Completo
+            <br>
+            <input type="text" id="nome" class="cadastro" placeholder="Digite seu nome completo..." required>
+        </label>
+
+        <label for="email">
+            E-mail
+            <br>
+            <input type="email" id="email" class="cadastro" placeholder="Digite seu email..." required>
+        </label>
+
+        <label for="telefone">
+            Telefone
+            <br>
+            <input type="tel" id="telefone" class="cadastro" placeholder="(00) 00000-0000" required>
+        </label>
+
+        <label for="mae">
+            Nome da Mãe
+            <br>
+            <input type="text" id="mae" class="cadastro" placeholder="Nome completo da mãe..." required>
+        </label>
+
+        <label for="pai">
+            Nome do Pai
+            <br>
+            <input type="text" id="pai" class="cadastro" placeholder="Nome completo do pai...">
+        </label>
+
+        <label for="endereco">
+            Endereço (Rua/Avenida)
+            <br>
+            <input type="text" id="endereco" class="cadastro" placeholder="Digite seu endereço..." required>
+        </label>
+
+        <label for="numero">
+            Número
+            <br>
+            <input type="text" id="numero" class="cadastro" placeholder="Digite o número de sua residência..." required>
+        </label>
+
+        <label for="cidade">
+            Cidade
+            <br>
+            <input type="text" id="cidade" class="cadastro" placeholder="Sua cidade..." required>
+        </label>
+
+        <label for="estado">
+            Estado
+            <br>
+            <input type="text" id="estado" class="cadastro" placeholder="Seu estado..." required>
+        </label>
+
+        <label for="pais">
+            País
+            <br>
+            <input type="text" id="pais" class="cadastro" placeholder="Seu país..." value="Brasil" required>
+        </label>
+
+        <label for="situacao">
+            Situação do Ensino Médio
+            <br>
+            <select id="situacao" class="cadastro" required>
+                <option value="" disabled selected>Selecione uma opção...</option>
+                <option value="concluido">Já concluí</option>
+                <option value="cursando">Estou cursando</option>
+            </select>
+        </label>
+
+        <label for="escola">
+            Tipo de Escola
+            <br>
+            <select id="escola" class="cadastro" required>
+                <option value="" disabled selected>Selecione uma opção...</option>
+                <option value="publica">Pública</option>
+                <option value="privada">Privada</option>
+            </select>
+        </label>
+
+        <label for="senha">
+            Senha
+            <br>
+            <input type="password" id="senha" class="cadastro" placeholder="Crie uma senha..." required>
+        </label>
+
+        <label for="conferirsenha">
+            Confirmar Senha
+            <br>
+            <input type="password" id="conferirsenha" class="cadastro" placeholder="Repita a sua senha..." required>
+        </label>
+
+        <button class="btn-valid">Cadastrar</button>
+    </div>
+
+    <footer class="rodape">
+        <h3>Jhonata Wyllian Da Silva Domingues 17/06/2026 - Copyright ©</h3>
+    </footer>
+
+</body>
+</html>
