@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #ededed;
+    background-color: #e6e6e6;
     padding-top: 100px;
     padding-bottom: 80px;
 }
@@ -26,10 +26,10 @@ header {
     align-items: center;
     justify-content: center; 
     padding: 15px;
-    color: white;
+    color: #ffffff;
     font-size: 1.5rem;
     background-color: #001bb2; 
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e6e6e6;
     gap: 10px;
 }
 
@@ -159,8 +159,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 15px;
-    color: white;
+    color: #ffffff;
     font-size: 1rem;
     background-color: #001bb2; 
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #e6e6e6;
 }
