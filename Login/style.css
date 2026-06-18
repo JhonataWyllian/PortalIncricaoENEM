@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #ededed;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 80px;
 }
 
@@ -22,12 +22,44 @@ header {
     z-index: 1000;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center; 
     padding: 15px;
     color: white;
     font-size: 1.5rem;
     background-color: #001bb2; 
     border-bottom: 1px solid #ddd;
+    gap: 10px;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #e0e542;
+    color: #000000;
+}
+
+.btn-sair {
+    background-color: #e74c3c;
+    border-radius: 4px;
+}
+
+.btn-sair:hover {
+    background-color: #c0392b;
+    color: #ffffff;
 }
 
 .box {
@@ -49,6 +81,38 @@ header {
     position: relative;
 }
 
+
+.container-cards {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 120px;
+    background-color: #e0e542;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+
 label {
     width: 100%;
     text-align: left;
@@ -60,7 +124,6 @@ label {
     width: 100%;
     padding: 5px;
     font-size: 1rem;
-    
 }
 
 .title-box {
@@ -71,7 +134,7 @@ label {
     color: #000000;
 }
 
-.btn-valid {
+.botao-login {
     width: 100%;
     margin-top: 1.2rem;
     padding: 10px 20px;
@@ -83,7 +146,7 @@ label {
     cursor: pointer;
 }
 
-.btn-valid:hover {
+.botao-login:hover {
     background-color: #27ae60;
     color: #ffffff;
 }

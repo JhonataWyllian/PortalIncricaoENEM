@@ -81,6 +81,26 @@ header {
     position: relative;
 }
 
+.box-painel {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+    background-color: #c0ffcc;
+    border: 3px solid #000000; 
+    gap: 2rem;
+    border-radius: 8px;
+}
+
+.title-painel {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
 
 .container-cards {
     display: flex;
@@ -112,6 +132,59 @@ header {
     color: #ffffff;
 }
 
+.box-cursos {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 450px;
+    background-color: #c0ffcc;
+    border: 3px solid #000000; 
+    gap: 1.5rem;
+    border-radius: 8px;
+}
+
+.title-box-cursos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.lista-cursos-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 40vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.item-curso {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome-curso {
+    font-weight: bold;
+    color: #000000;
+}
+
+.area-curso {
+    background-color: #001bb2;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
 
 label {
     width: 100%;
@@ -134,7 +207,7 @@ label {
     color: #000000;
 }
 
-.botao-cadastrar {
+.btn-valid {
     width: 100%;
     margin-top: 1.2rem;
     padding: 10px 20px;
@@ -146,7 +219,7 @@ label {
     cursor: pointer;
 }
 
-.botao-cadastrar:hover {
+.btn-valid:hover {
     background-color: #27ae60;
     color: #ffffff;
 }

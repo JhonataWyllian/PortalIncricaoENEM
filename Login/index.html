@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login - ENEM</title>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header class="cabecalho">
-            <h3>Portal do Candidato - ENEM</h3>
+        <h3>Portal do Candidato - ENEM</h3>
+        <nav class="menu-nav">
+            <a href="../AreaCandidato/painel_principal.html" class="nav-link">Painel Principal</a>
+            <a href="../AreaCandidato/cursos.html" class="nav-link">Verificação de Cursos</a>
+            <a href="../Cadastro/index2.html" class="nav-link">Inscrição</a>
+            <a href="index.html" class="nav-link btn-sair">Sair</a>
+        </nav>
     </header>
 
     <div class="box">
 
         <h1 class="title-box">Login</h1>
 
-        <label for="text">
+        <label for="email">
             Insira seu Email:
             <br>
-            <input type="Email" id="email" class="login" placeholder="Digite seu email..." required>
+            <input type="email" id="email" class="login" placeholder="Digite seu email..." required>
         </label>
 
         <label for="senha">
@@ -29,7 +35,7 @@
             <input type="password" id="senha" class="login" placeholder="Digite sua senha..." required>
         </label>
 
-        <button class="btn-valid">Entrar</button>
+        <button class="botao-login">Entrar</button>
     </div>
 
     <footer class="rodape">
